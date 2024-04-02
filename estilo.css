@@ -1,0 +1,203 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(205, 133, 63, 100%), rgb(250, 199, 19, 0%));
+    background-attachment: fixed;
+    
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+
+header .logo img{
+    width: 250px;
+    margin: 30px 0px 0px 100px;
+}
+header .pesquisa input{
+    width: 35%;
+    height: 36px;
+    border: 1px;
+    border-radius: 12px;
+    float: right;
+    margin: -80px 615px 0px 0px;
+}
+
+header .pesquisa input:focus, select:focus{
+    outline: 0;
+}
+
+header .secao-menus{
+  margin: -30px 0px 0px 580px;
+}
+header .secao-menus ul li{
+    margin: 0px 40px;
+    display: inline-block;
+}
+
+header .secao-menus ul li a{
+    color: black;
+    
+}
+header .secao-menus ul li a:hover,
+header .secao-menus ul li a:active{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
+header .secao-caracao-carrinho{
+    display: flex;
+    margin: -80px 190px;
+    float: right;
+}
+
+header .secao-caracao-carrinho .coracao{
+    margin-right: 30px;
+}
+
+header .secao-caracao-carrinho a{ 
+    text-decoration: none;
+    color: black;
+}
+header .secao-caracao-carrinho a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+/* *************informações*********** */
+.secao-informacao .modelo{
+    margin: 100px 0px 0px 45px ;
+    width: 400px;
+    height: 150px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secao-informacao .informacao{
+    margin: 0px 0px 0px 45px;
+    width: 386px;
+    height: 329px;
+    font-size: 1.8rem;
+}
+
+#carouselExampleFade {
+    width: 600px;
+    margin: -420px 0px 0px 646px;
+    
+}
+
+
+
+.nike img{
+    width: 600px;
+    margin: -300px 35% 0px 0px;
+    float: right;
+
+}
+/* ********** Comprar ************* */
+
+.compras .preco p{
+    margin: -450px 120px 0px 0px;
+    font-size: 4.8rem;
+    float: right;
+}
+
+.compras .secao-tamanho{
+    margin: -380px 120px 0px 0px;
+    float: right;
+    width: 140px;
+}
+
+.compras .secao-tamanho p{
+    font-size: 1.6rem;
+}
+
+
+.compras .secao-tamanho button{
+    margin: 2px 0px;
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    border-radius: 20%;
+}
+
+.compras .unidades{
+    margin: -230px 145px;
+    float: right;
+}
+
+.compras .unidades #id-numero{
+    border: 1px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+.compras #id-comprar{
+    margin: -130px 125px;
+    height: 40px;
+    width: 133px;
+    border: 1px;
+    border-radius: 10px;
+    float: right;
+}
+
+.compras .unidades p{
+    margin: 13px;
+    font-size: 1.6rem;
+}
+
+.compras .unidades input:focus, select:focus{
+    outline: 0;
+}
+
+.detalhes{
+    width: 300px;
+    margin: 0px 0px 0px 700px ;
+    display: flex;
+}
+
+.detalhes img{
+    margin: -30px 0px 15px 50px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+footer{
+    opacity: 0.8;
+    margin: -24px 0px 0px 0px;
+    width: 100%;
+    height: 180px;
+    background-color:rgba(217, 217, 217, 1);
+    mix-blend-mode: darken;
+}
+
+footer .secao-outros-tenis{
+    margin-left: 600px;
+    display: flex;
+}
+
+footer .secao-outros-tenis img{
+    width: 180px;
+    margin: 15px 30px;
+}
+
+
+/* ************** Respansivo em criação *************** */

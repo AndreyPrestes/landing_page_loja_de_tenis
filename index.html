@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Authentic King Shoes</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+
+            <figure class="logo">
+                <img src="img/logo.png" alt="logo">
+            </figure>
+
+            <nav class="pesquisa">
+                <input type="search" placeholder=" Pesquisar">
+            </nav>
+
+
+            <nav class="secao-menus">
+                <ul>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+            </nav>
+
+            <nav class="secao-caracao-carrinho">
+                <figure class="coracao">
+                    <a href="#"><img src="img/Coracao.png" alt=""> Favoritos</a>
+
+                </figure>
+                <figure class="carrinho">
+                    <a href="#"><img src="img/Carrinho.png" alt=""> Compras</a>
+                </figure>
+            </nav>
+        </header>
+
+
+        <article class="secao-informacao">
+            <p class="modelo">
+                Air Jordan 3 Retro
+            </p>
+            <p class="informacao">O lendário designer Tinker Hatfield que solidificou o lugar de MJ na tradição dos tênis retorna com um toque artesanal. Nossa recém-desenvolvida estampa de elefante reimagina o visual icônico com um toque de Palomino, enquanto couro sintético luxuoso na língua e camurça na parte superior elevam cada passo. Suave como o jogo de Jordan e pronto para você criar seu próprio legado. Nasce outro clássico moderno.</p>
+        </article>
+
+        <figure class="nike">
+            <img src="img/Logo_NIKE.svg.png" alt="nike">
+        </figure>
+
+
+
+        <!-- carousel Crossfade -->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="Tenis/Tenis01.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Tenis/Tenis02.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Tenis/Tenis03.png" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+
+        <section class="compras">
+            <form name="compra" action="compras.com" method="post">
+                <fieldset>
+                    <div class="preco">
+                        <p>R$:350</p>
+                    </div>
+
+                    <div class="secao-tamanho">
+                        <p>Tamanho:</p>
+                        <button type="button">35</button>
+                        <button type="button">36</button>
+                        <button type="button">37</button>
+                        <button type="button">38</button>
+                        <button type="button">39</button>
+                        <button type="button">40</button>
+                        <button type="button">41</button>
+                        <button type="button">42</button>
+                        <button type="button">43</button>
+                        <button type="button">44</button>
+                        <button type="button">45</button>
+                        <button type="button">46</button>
+                    </div>
+
+                    <div class="unidades">
+                        <p>Unidades:</p>
+                        <input type="number" id="id-numero" value="numero">
+                    </div>
+
+                    <input type="submit" name="btn" id="id-comprar" value="Comprar">
+                </fieldset>
+
+                </fieldset>
+            </form>
+        </section>
+
+        <article class="detalhes">
+            <figure><img src="Tenis/Tenis04.jpeg" alt="Tenis04"></figure>
+            <figure><img src="Tenis/Tenis05.jpeg" alt="Tenis05"></figure>
+            <figure><img src="Tenis/Tenis06.png" alt="Tenis06"></figure>
+        </article>
+
+
+
+        <footer>
+            <aside class="secao-outros-tenis">
+                <figure>
+                    <a href=""><img src="outrostenis/Tenis01.png" alt="outr"></a>
+                </figure>
+                <figure>
+                    <a href=""><img src="outrostenis/Tenis02.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href=""><img src="outrostenis/Tenis03.png" alt=""></a>
+                </figure>
+            </aside>
+        </footer>
+    </div>
+</body>
+
+</html>
